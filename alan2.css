@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
 html,
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 body {
   width: 100%;
   height: 100%;
@@ -28,7 +29,7 @@ audio{
   border-radius: 10px;
   position: absolute;
   top: 250px;
-  left: 52%;
+  left: 971px;
   margin-left: -2.4px;
   margin-top: -8.33333333px;
   width: 5px;
@@ -61,7 +62,40 @@ audio{
   border-radius: 10px;
   position: absolute;
   top: 250px;
-  left: 50%;
+  left: 920px;
+  margin-left: -2.4px;
+  margin-top: -8.33333333px;
+  width: 5px;
+  height: 35px;
+  transform: translateY(-300px);
+  backface-visibility: hidden;
+  animation: in 800ms 11s ease-out forwards;
+}
+
+.candle:after,
+.candle:before {
+  background: rgba(255, 0, 0, 0.4);
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2.22222222px;
+}
+.candle:after {
+ top: 25%;
+  left: 0;
+}
+.candle:before {
+  top: 49%;
+  left: 0;
+}
+/* ============================================== candle2
+*/
+.candle3 {
+  background: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px;
+  left: 1020px;
   margin-left: -2.4px;
   margin-top: -8.33333333px;
   width: 5px;
